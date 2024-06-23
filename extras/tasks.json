@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "swiftc",
+            "args": [
+                "C:\\Users\\main.swift",
+                "-o",
+                "C:\\Users\\main.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$swiftc"],
+            "detail": "Compiling Swift file"
+        }
+    ]
+}

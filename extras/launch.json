@@ -1,0 +1,42 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+	  {
+		"name": "Debug Swift Program",
+		"type": "lldb",
+		"request": "launch",
+		"program": "${workspaceFolder}/main.exe",
+		"args": [],
+		"cwd": "${workspaceFolder}",
+		"preLaunchTask": "build",
+		"stopAtEntry": false,
+		"osx": {
+		  "MIMode": "lldb"
+		},
+		"windows": {
+		  "MIMode": "gdb"
+		},
+		"environment": [],
+		"console": "internalConsole"
+	  },
+	  {
+		"name": "C/C++ Runner: Debug Session",
+		"type": "cppdbg",
+		"request": "launch",
+		"args": [],
+		"stopAtEntry": false,
+		"externalConsole": true,
+		"cwd": "C:\\Users",
+		"program": "C:\\Users/build/Debug/outDebug",
+		"MIMode": "gdb",
+		"miDebuggerPath": "gdb",
+		"setupCommands": [
+		  {
+			"description": "Enable pretty-printing for gdb",
+			"text": "-enable-pretty-printing",
+			"ignoreFailures": true
+		  }
+		]
+	  }
+	]
+  }
