@@ -1,0 +1,1 @@
+# Sintaxe para a linguagem Swift
