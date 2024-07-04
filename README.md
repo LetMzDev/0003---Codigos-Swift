@@ -8,3 +8,5 @@
 ## Conteúdo
 - Variáveis
 - Tipos de Dados
+- Condicionais
+- Switch
