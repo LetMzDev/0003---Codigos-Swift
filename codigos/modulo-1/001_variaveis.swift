@@ -1,3 +1,5 @@
+// ./main.exe
+
 // Variáveis
 var saborPizza = "Portuguesa"
 var tamanhoEmCM = 48
